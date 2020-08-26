@@ -2,6 +2,7 @@
 n = ARGV[0].to_i
 
 #Loop
+
 n.times do |i|
     if i.even?
         print "*"
@@ -9,3 +10,4 @@ n.times do |i|
         print "."
     end
 end
+puts "\n"
